@@ -26,3 +26,5 @@ In the Interpreter page, scroll down to the Python section and click the "Edit" 
 ![image](https://user-images.githubusercontent.com/19158771/160842452-388cca15-515d-4640-9c37-baacbd330f91.png)
 
 Now, you should be able to import matplotlib, numpy and tensorflow into your python code in Zeppelin. 
+
+An alternative would be to run IPython in a docker or podman container as per [these instructions](https://zeppelin.apache.org/docs/latest/interpreter/python.html#ipython-interpreter-pythonipython-recommended).
