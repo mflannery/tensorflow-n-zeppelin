@@ -1,4 +1,4 @@
-# tensorflow in Apache Zeppelin
+# tensorflow in Apache Zeppelin on Fedora 35
 How I got tensorflow running in Apache Zeppelin running on Fedora 35
 
 First - Install the correct version of Python that will work with Apache Zeppelin. I haved found that python 3.7 works well. Other versions of python can be installed. For example, on my Fedora 35 system I have python 3.10, 3.9 and 3.7 installed. I have /usr/bin/python in $PATH but this is a symbolic link to /usr/bin/python3 which in turn is a symbolic link to /usr/bin/python3.10. This is the default python version that will be used when executing python without any trailing numbers.  To use python version 3.7, add "3.7" to the end of the python executable as seen in the examples below.
